@@ -1,0 +1,35 @@
+{
+  "ignition": {
+    "version": "3.4.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC..."
+        ]
+      }
+    ]
+  },
+  "storage": {
+    "files": [
+      {
+        "path": "/etc/motd",
+        "mode": 420,
+        "contents": {
+          "source": "data:,Welcome%20to%20Fedora%20CoreOS!"
+        }
+      }
+    ]
+  },
+  "systemd": {
+    "units": [
+      {
+        "name": "example.service",
+        "enabled": true,
+        "contents": "[Unit]\nDescription=Example Service\n[Service]\nType=oneshot\nExecStart=/usr/bin/echo Hello CoreOS\n[Install]\nWantedBy=multi-user.target"
+      }
+    ]
+  }
+}
