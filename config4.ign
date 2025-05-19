@@ -3,13 +3,13 @@
         "version": "3.4.0"
     },
     "passwd": {
-        "users": [
+        "users": 
             {
                 "name": "core",
                 "sshAuthorizedKeys": [
                     "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCEXAMPLEKEY"
                 ]
             }
-        ]
+        
     }
 }
