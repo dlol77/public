@@ -1,0 +1,15 @@
+{
+  "ignition": {
+    "version": "3.4.0"
+  },
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCr041DrMZG5JpqDcPFIMXPlALrzIo9oD5AKDVtZaRTQmaR5zM5XPK54behCoiRfm62rQSYApUMKjOTXYvjLwPFRBLWyopz3OtrPcuaD9kSW0GjwxCVXuroR+BY3OsBKaP5AzUWAvSTx8JpgmGTFN8Qw/mdJy4QiXbguTAoCZ2ij0MGP6rEsqey50iX0ecwCBitBf+KUnRwxGyvfzp8/h/EsQO3RnGtzeEU8lgXrDSv5D60mOlwBnF4PZdNxvaoqTzzbcy08+IEM2+uD/FpgQbE/c4ZR0nj4BviachZkWbw3O+iq0ziq6Y5yGwV7AHR7HgtHkgWOLbyLPesFvUZfmkF rsa-key-20250516"
+        ]
+      }
+    ]
+  }
+}
